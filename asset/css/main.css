@@ -1,0 +1,55 @@
+body{
+    color: blue;
+    
+}
+.formset{
+    background-color:transparent;
+    padding:20px;
+    text-align:left;
+    border:1px solid blue;
+    margin-bottom:15px;  
+}
+.setOptions{
+    width:40%;
+}
+.form{
+    margin-top:5%;
+}
+.alert {
+    padding: 10px;
+    background-color:snow; /* Red */
+    color: #f44336;;
+    margin-bottom: 15px;
+    width:80%;
+    margin-right: 5%;
+    margin-left:10%;
+    text-align:center;
+    display: none;
+}
+.formfill{
+    background-color:whitesmoke;
+    width:45%;
+    height:460px;
+    margin-top:5%;
+    margin-left:25%;
+    box-shadow: 2px 2px #888888;
+    padding-top:30px;
+    
+    /* margin-right:50%; */
+}
+h3{
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    
+    
+}
+hr{
+    margin-left:21%;
+    width:50%;
+    border-bottom: 1px solid grey
+}
+.footer{
+    margin-top:5%;
+    color: gray;
+}
