@@ -1,7 +1,6 @@
-body{
-    color: blue;
-    
-}
+/* body{
+  
+} */
 .formset{
     background-color:transparent;
     padding:20px;
@@ -12,19 +11,35 @@ body{
 .setOptions{
     width:40%;
 }
+a{
+    text-decoration: none;
+}
 .form{
     margin-top:5%;
+    overflow: hidden;
 }
+/* This is the profile icon founde after user logs in*/
+
 .alert {
     padding: 10px;
-    background-color:snow; /* Red */
-    color: #f44336;;
+    color: #f44336;
     margin-bottom: 15px;
     width:80%;
     margin-right: 5%;
     margin-left:10%;
-    text-align:center;
+    text-align:center
+}
+#errorMessg{
     display: none;
+}
+.login{
+    background-color:whitesmoke;
+    width:45%;
+    height:300px;
+    margin-top:5%;
+    margin-left:25%;
+    box-shadow: 2px 2px #888888;
+    padding-top:30px;
 }
 .formfill{
     background-color:whitesmoke;
@@ -34,22 +49,25 @@ body{
     margin-left:25%;
     box-shadow: 2px 2px #888888;
     padding-top:30px;
-    
-    /* margin-right:50%; */
 }
+
 h3{
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: oblique;
-    
+    margin:0 auto;
     
 }
+
 hr{
-    margin-left:21%;
+    /* margin-left:11%; */
     width:50%;
-    border-bottom: 1px solid grey
+    border-bottom: 1px solid silver
 }
 .footer{
     margin-top:5%;
     color: gray;
+}
+.thumbnail{
+    text-align: center;
 }
