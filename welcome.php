@@ -121,9 +121,11 @@ foreach($show as $item=>$i){
                 </span><br>';
               ?>
               <textarea name ="post"></textarea>
+              <form action="controllers/users.php" class= "form" method="POST">
                 <span style="float:right; margin-top:3%;margin-right:2%;">
-                  <button class="btn btn-primary"  name = "send-post" type="button">Post</button>
+                  <button  class="btn btn-primary" class= "form-control" name = "send-post" type="submit">Post</button>
                 </span>
+              </form>
           </div> 
           <div class="col-lg-12" id="make-post" >
           </div>
@@ -148,7 +150,7 @@ foreach($show as $item=>$i){
                 </span><br>';
               ?>
                     <textarea name ="post"></textarea>
-                    <form action="users.php" class= "form" method="POST">
+                    <form action="controllers/users.php" class= "form" method="POST">
                     <span style="float:right; margin-top:3%;margin-right:2%;">
                       <button  class="btn btn-primary" class= "form-control" name = "send-post" type="submit">Post</button>
                     </span>

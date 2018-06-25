@@ -34,8 +34,8 @@ class Upload{
             $ppTmpName = $profilePicture['tmp_name'];
             $ppSize = $profilePicture['type'];
             $ppErr = $profilePicture['error'];
-            $fileExt = explode('.',$ppName);
-            $actualFileExt = strtolower(end($fileExt));
+            $fileExtention = explode('.',$ppName);
+            $actualFileExt = strtolower(end($fileExtention));
            
         $filesExtAllowed  = array('jpg','png','jpeg' );
         if(!in_array($actualFileExt,$filesExtAllowed)){
